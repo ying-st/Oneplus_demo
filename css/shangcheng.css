@@ -1,0 +1,296 @@
+/*商城头部手机配件图标*/
+.store-subnav{
+	width: 100%;
+	height: 100%;
+	background-color: #f1f1f1;;
+}
+
+.store-subnav .subnav-container{
+	width: 100%;
+	height: 100%;
+	padding: 40px 0 25px 0;
+	text-align: center;
+	background: #f1f1f1;
+}
+
+.store-subnav .subnav-container li{
+	display: inline-block;
+	font-size: 14px;
+	width: 105px;
+/*	height: 83px;*/
+}
+
+.store-subnav .subnav-container li a{
+	text-decoration: none;
+	color: #333;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.store-subnav .subnav-container li a:hover{
+	color: red;
+}
+
+.store-subnav .subnav-container li i{
+	background: #ccc;
+	border-radius: 50%;
+	display: block;
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 41px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	background-image: url(../img/store-top-icons.png);
+}
+
+.store-subnav .subnav-container li .i-phones{
+	background-position: 0 -451px;
+/*	transition: opacity .4s;*/
+}
+
+.store-subnav .subnav-container li a:hover .i-phones{
+	background-position: 0 -410px;
+}
+
+.store-subnav .subnav-container li .i-audio{
+	background-position: 0 -41px;
+}
+
+.store-subnav .subnav-container li a:hover .i-audio{
+	background-position: 0 0;
+}
+
+.store-subnav .subnav-container li .i-cases{
+	background-position: 0 -287px;
+}
+
+.store-subnav .subnav-container li a:hover .i-cases{
+	background-position: 0 -246px;
+}
+
+.store-subnav .subnav-container li .i-cables{
+	background-position: 0 -205px;
+}
+
+.store-subnav .subnav-container li a:hover .i-cables{
+	background-position: 0 -164px;
+}
+
+.store-subnav .subnav-container li .i-bundles{
+	background-position: 0 -123px;
+}
+
+.store-subnav .subnav-container li a:hover .i-bundles{
+	background-position: 0 -82px;
+}
+
+.store-subnav .subnav-container li .i-lifestyle{
+	background-position: 0 -369px;
+}
+
+.store-subnav .subnav-container li a:hover .i-lifestyle{
+	background-position: 0 -328px;
+}
+
+
+/*头部大图*/
+.top-img{
+	height: 500px;
+	background-image: url(../img/store-top.jpg);
+	background-position: center;
+}
+
+
+
+/*商城中间图片(闪充套装)*/
+.hero-goods-content{
+	width: 100%;
+	height: 357px;
+	padding: 60px 0;
+/*	background: lightcoral;*/
+}
+
+.goods-wrap {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+/*    background: lightcyan;*/
+}
+
+.goods-wrap ul{
+	height: 100%;
+	padding-left: 0px;
+	margin-left: -1.66667%;
+	margin-bottom: 0px;
+}
+
+.goods-wrap li{
+	float: left;
+	list-style: none;
+	width: 31.55738%;
+	margin-left: 1.66667%;
+}
+
+
+/*OnePlus 5 热销配件*/
+.goods-content{
+	width: 100%;
+	height: 970px;
+	background: #f2f2f2;
+}
+
+.category-hd{
+	width: 100%;
+	height: 81px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.category-hd h2{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: 400;
+	float: left;
+	color: #333;
+	font-size: 1.5em;
+}
+
+.goods-list{
+	width: 100%;
+	height: 370px;
+	text-align: center;
+}
+
+.goods-list .col-sm-3, .col-md-3, .col-lg-3{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/*.goods-list .col-lg-3{
+	width: 23%;
+}*/
+
+.goods-list .row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.goods-list .row .list-li{
+	width: 23%;
+	padding: 50px 0;
+	margin-top: 20px;
+	margin-left: 1.66667%;
+	background: white;
+	transition: all .3s;
+	float: left;
+	position: relative;
+	top: 0;
+}
+
+.goods-list .row .list-li:hover{
+	top: -2px;
+	box-shadow: 1px 1px 60px lightgray;
+}
+
+.goods-list .row .thumbnail{
+	border-radius: 0px;
+	border: none;
+	padding: 0px;
+	margin-bottom: 0px;
+	font-size: 16px;;
+}
+
+.goods-list .row .thumbnail h3{
+	font-size: 100%;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.goods-list img {
+    width: 64.21053%;
+    max-width: 183px;
+    display: block;
+    margin: 0 auto;
+}
+
+.goods-list .row .caption p k{
+	color: #999;
+	text-decoration: line-through;
+}
+
+
+
+
+/*响应式*/
+@media (max-width: 767px){
+	/*商城头部手机配件图标*/
+	.store-subnav .subnav-container{
+		padding: 0;
+	}
+	
+	.store-subnav .subnav-container ul{
+		padding: 0px;
+	}
+	
+	.store-subnav .subnav-container li{
+		width: 49%;
+		height: 150px;
+		padding-top: 6%;
+		border-bottom: 1px solid #eaeaea;
+		border-right: 1px solid #eaeaea;
+	}
+	
+	/*头部大图*/
+	.top-img{
+		height: 553px;
+		background-image: url(../img/store-top-small.jpg);
+		background-position: center;
+	}
+	
+
+	/*商城中间图片(闪充套装)*/
+	.hero-goods-content {
+		height: 100%;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	.goods-wrap{
+		overflow: hidden;
+	}
+	
+	.goods-wrap ul{
+		overflow: hidden;
+	}
+	
+	.goods-wrap li{
+		width: 100%;
+	}
+	
+	.goods-wrap li img{
+		width: 100%;
+	}
+	
+	/*OnePlus 5 热销配件*/
+	.goods-list .row .list-li{
+		width: 47%;
+	}
+	
+	.category-hd{
+		overflow: hidden;
+	}
+	
+	.goods-content{
+		height: 100%;
+		padding-bottom: 30px;
+	}
+	
+	.goods-list{
+		height: 100%;
+	}
+	
+}
